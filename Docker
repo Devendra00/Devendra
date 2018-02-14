@@ -1,0 +1,46 @@
+Virtualisation:
+
+Installing guest OS on Host OS is done
+advantages:
+Multiple OS on same machine
+easy maintaicne and recovery
+lowcost
+d
+Disadvantages
+booting process will take time around 1 min
+Hypervisors are not as fast as Host OS.
+Multiple VM's may lead to unsatble performance
+
+-------------------------------------------------------------------------------
+Docker:
+
+It is a containarization platform which packages your application and its dependencies togeathre in a form of container, to ensure that 
+your applciation run seemlessly in any environment development or test or Prod.
+
+containarization : It is the technique of bringing virtuallization on OS level, Virtualization deals with hardware where containaraization deals with softwares.
+
+In this process binaries and libraries run on based on Host OS  kernal only.
+
+In virtuallization certain amount  RAM is allocated for each OS, but here we may not use compelte RAM space,
+ it is one os the major issue as RAM is costly hardware.
+
+
+--------------------------------------------------------------------------------------------------------------
+
+Docker Engine :
+
+In linux : It works it as client and server model.here client is linux terminal and server is docker host (with deamon program running continously). Both client and server are connected using API with with help of IO sockets and TCPIP protocal.
+
+In windows: docker tool box is stalled here which consits of Docker client,kitamatic,compose,Machine and virtualbox.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Images:
+Images are building blocks of containers, they are like executable.these are created by build command , containers were created with images 
+run command.
+
+Images are comprises of multiple layers, changes done to images are stored layers
+
+Docker registory: It is a storage component(repository) used to keep docker images.these can be maintained in public & private repo also.
+All images can be maintained remotely in dockers cloud as Docker hub 
+
