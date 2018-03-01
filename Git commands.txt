@@ -56,3 +56,9 @@ Recursive merging:
 Fast-forward merging:
 
 
+
+.gitignore :
+touch .gitignore
+after creating the file we need to add file names or paths  (sample.txt / *.txt ....) in .gitignore file.
+Note : in case if it is not working then we need remove from cache (git rm --cached file_name)
+
